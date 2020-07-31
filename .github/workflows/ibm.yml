@@ -1,7 +1,7 @@
 name: IBM_CF Reinstall V2ray
 
 on:
-  push:
+  push1:
     branches: [ master ]
   pull_request:
     branches: [ master ]
@@ -88,5 +88,5 @@ jobs:
         pwd
         echo "开始推送配置文件,远程部署!!"
         ../IBM_Cloud_CLI/ibmcloud cf push
-        1echo "配置完成。"
+        echo "配置完成。"
         
