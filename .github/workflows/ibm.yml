@@ -1,7 +1,7 @@
 name: IBM_CF Reinstall V2ray
 
 on:
-  push1:
+  push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
